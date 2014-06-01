@@ -1,0 +1,348 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td { margin: 0; padding: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset,img { border: 0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style: normal; font-weight: normal; }
+li { list-style: none; }
+caption,th { text-align: left; }
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: normal; }
+abbr,acronym { border: 0; font-variant: normal; }
+input,textarea,select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+a { text-decoration: none; color: inherit; }
+
+html {
+	min-height: 100%;
+	}
+body {
+	background: #E0E0E0 url(../images/logolarge.png) top right no-repeat;
+	background: #DBE4E3 url(../images/wallpaperbg.png) bottom right no-repeat;
+	background-attachment: fixed;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 0 auto 1.5em auto;
+	padding: 0 20px;
+	width: 900px;
+	}
+
+a { outline: none; }
+
+img { display: block; }
+img.inline { display: inline; }
+
+em, cite { font-style: italic; }
+
+table td { vertical-align: top; }
+
+.title {
+	font-size: 1.5em;
+	margin: .75em 0 0 0;
+	}
+.description {
+	color: #666;
+	margin: .75em 0 0 0;
+	}
+.description a {
+	border-bottom: 1px solid #DDD;
+	}
+.description a:hover {
+	border-bottom: 1px solid #CCC;
+	}
+
+#notice {
+	float: right;
+	width: 420px;
+	background: url(../images/bg.png) center center repeat;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	}
+#notice h2 {
+	float: left;
+	margin: 15px 20px;
+	}
+#notice div {
+	margin: 10px;
+	line-height: 1.4em;
+	}
+#notice a {
+	color: #628A84;
+	}
+
+#header {
+	float: left;
+	margin-left: 15px;
+	margin-top: 1.5em;
+	}
+h1 {
+	font-size: 4em;
+	}
+h2 {
+	color: #666666;
+	color: #628A84;
+	font-size: 2em;
+	margin-bottom: .25em;
+	margin-left: 2px;
+	}
+h4 {
+	margin-top: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	}
+
+#main ul#nav {
+	float: left;
+	font-size: 1.75em;
+	padding-top: .3em;
+	margin-left: 20px;
+	}
+#main ul#nav li {
+	float: left;
+	}
+#main ul#nav li a {
+	color: #000 !important;
+	display: block;
+	padding: .5em 15px .35em 15px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	}
+#main ul#nav li a:hover {
+	background: url(../images/bgtab.png) center center repeat;
+	background: #B1C9C5;
+	}
+#main ul#nav li.selected a {
+	background: url(../images/bg.png) center center repeat;
+	}
+#main .section {
+	clear: both;
+	background: url(../images/bg.png) center center repeat;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 20px;
+	}
+
+/* Motion */
+
+#main #motion ul {
+	float: left;
+	width: 170px;
+	font-size: 1em;
+	}
+#main #motion ul h3 {
+	font-size: 1.5em;
+	margin: .5em 0 0 0;
+	}
+#main #motion ul li {
+	margin: .5em 0;
+	}
+#main #motion ul li a {
+	color: #666666;
+	color: #628A84;
+	}
+#main #motion ul li.ui-tabs-selected a {
+	color: #000;
+	}
+#main #motion .ui-tabs-panel {
+	clear: none;
+	background: transparent;
+	padding: 0;
+	margin-left: 190px;
+	}
+
+/* Photography */
+
+#main #photography ul {
+	float: left;
+	width: 170px;
+	font-size: 1em;
+	}
+#main #photography ul h3 {
+	font-size: 1.5em;
+	margin: .5em 0 0 0;
+	}
+#main #photography ul li {
+	margin: .5em 0;
+	}
+#main #photography ul li a {
+	color: #666666;
+	color: #628A84;
+	}
+#main #photography ul li.ui-tabs-selected a {
+	color: #000;
+	}
+#main #photography .ui-tabs-panel {
+	clear: none;
+	background: transparent;
+	padding: 0;
+	margin-left: 190px;
+	}
+
+#main #photography .gallery ul {
+	float: none;
+	width: auto;
+	font-size: 1em;
+	margin-bottom: .5em;
+	}
+#main #photography .gallery ul li {
+	display: inline;
+	margin: 0;
+	}
+#main #photography .gallery ul li a {
+	color: #666666;
+	color: #628A84;
+	padding: 1px 6px 3px 6px;
+	}
+#main #photography .gallery ul li.ui-tabs-selected a {
+	color: #000;
+	background: url(../images/bg.png) center center repeat;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	}
+#main #photography .gallery .ui-tabs-panel {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	}
+
+/* Theatre */
+
+#main #theatre ul {
+	float: left;
+	width: 170px;
+	font-size: 1em;
+	}
+#main #theatre ul h3 {
+	font-size: 1.5em;
+	margin: .5em 0 0 0;
+	}
+#main #theatre ul li {
+	margin: .5em 0;
+	}
+#main #theatre ul li a {
+	color: #666666;
+	color: #628A84;
+	}
+#main #theatre ul li.ui-tabs-selected a {
+	color: #000;
+	}
+#main #theatre .ui-tabs-panel {
+	clear: none;
+	background: transparent;
+	padding: 0;
+	margin-left: 190px;
+	}
+
+#main #theatre .gallery ul {
+	float: none;
+	width: auto;
+	font-size: 1em;
+	margin-bottom: .5em;
+	}
+#main #theatre .gallery ul li {
+	display: inline;
+	margin: 0;
+	}
+#main #theatre .gallery ul li a {
+	color: #666666;
+	color: #628A84;
+	padding: 1px 6px 3px 6px;
+	}
+#main #theatre .gallery ul li.ui-tabs-selected a {
+	color: #000;
+	background: url(../images/bg.png) center center repeat;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	}
+#main #theatre .gallery .ui-tabs-panel {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	}
+
+/* Art */
+
+#main #art ul {
+	float: left;
+	width: 170px;
+	font-size: 1em;
+	}
+#main #art ul h3 {
+	font-size: 1.5em;
+	margin: .5em 0 0 0;
+	}
+#main #art ul li {
+	margin: .5em 0;
+	}
+#main #art ul li a {
+	color: #666666;
+	color: #628A84;
+	}
+#main #art ul li.ui-tabs-selected a {
+	color: #000;
+	}
+#main #art .ui-tabs-panel {
+	clear: none;
+	background: transparent;
+	padding: 0;
+	margin-left: 190px;
+	}
+
+#main #art .gallery ul {
+	float: none;
+	width: auto;
+	font-size: 1em;
+	margin-bottom: .5em;
+	}
+#main #art .gallery ul li {
+	display: inline;
+	margin: 0;
+	}
+#main #art .gallery ul li a {
+	color: #666666;
+	color: #628A84;
+	padding: 1px 6px 3px 6px;
+	}
+#main #art .gallery ul li.ui-tabs-selected a {
+	color: #000;
+	background: url(../images/bg.png) center center repeat;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	}
+#main #art .gallery .ui-tabs-panel {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	}
+
+.gallery img {
+	max-width: 670px;
+	}
+
+/* About Me */
+
+#contact img {
+	display: block;
+	margin-right: 20px;
+	}
+#contact h3 {
+	font-size: 1.5em;
+	margin: 1em 0 .5em 0;
+	}
+#contact p {
+	margin: .5em 0;
+	}
+#contact a {
+	color: #666666;
+	color: #628A84;
+	}
+
+/* General */
+
+.ui-tabs-hide {
+	display: none;
+	}
+.clear {
+	clear: both;
+	}
